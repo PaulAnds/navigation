@@ -7,8 +7,10 @@ function HomeScreen({navigation}) {
         <View style ={styles.container}>
             <Text style={styles.text}>Home</Text>
             <Button 
-                title="Details"
-                onPress={() => navigation.navigate("Details", {
+                backgroundColor = "white"
+                color="#ffeb3b"
+                title="Menu"
+                onPress={() => navigation.navigate("Menu", {
                     id: 1,
                     description: 'This is where the description goes',
                 })}
