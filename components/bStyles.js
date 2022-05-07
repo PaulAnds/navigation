@@ -7,7 +7,7 @@ export default StyleSheet.create({
         flexwrap: "wrap",
         //justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: 'ghostwhite',
+        backgroundColor: '#8e24aa',
         ...Platform.select({
             ios: { paddingTop: 20},
             android: {paddingTop: StatusBar.currentHeight}
@@ -21,7 +21,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         alignSelf: 'stretch',
         borderWidth: 1,
-        backgroundColor: 'lightgray',
+        backgroundColor: '#c158dc',
         margin: 10,
     },
 
